@@ -1,6 +1,10 @@
 # claude-files.nvim
 
+🚀 Track your Claude Code changes directly in Neovim!
+
 A Neovim plugin to view and navigate files modified by [Claude Code CLI](https://claude.ai/claude-code).
+
+![claude-files.nvim screenshot](screenshots/example.png)
 
 ## Features
 

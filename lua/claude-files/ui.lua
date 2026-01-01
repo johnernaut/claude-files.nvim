@@ -148,8 +148,9 @@ function setup_keymaps()
   for i = 1, 9 do
     vim.keymap.set("n", tostring(i), function()
       if current_files[i] then
+        local filename = current_files[i].filename
         close_popup()
-        marks.nav_to_file(current_files[i].filename)
+        marks.nav_to_file(filename)
       end
     end, opts)
   end
