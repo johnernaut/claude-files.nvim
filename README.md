@@ -22,7 +22,7 @@ A Neovim plugin to view and navigate files modified by [Claude Code CLI](https:/
 
 ```lua
 {
-  "yourusername/claude-files.nvim",
+  "johnernaut/claude-files.nvim",
   dependencies = { "nvim-lua/plenary.nvim" },
   config = function()
     local cf = require("claude-files")
